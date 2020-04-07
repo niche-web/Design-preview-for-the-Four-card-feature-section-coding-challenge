@@ -1,0 +1,103 @@
+body
+{
+  text-align: center;
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9375rem;
+  color: hsl(229, 6%, 66%);
+  font-weight: 400;
+}
+h3
+{
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  font-size: 1.3rem;
+}
+.head
+{
+  font-weight: 200;
+  margin: 50px auto 0;
+  font-size: 2.2rem;
+}
+.head-1
+{
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  margin-top: 0;
+  font-size: 2.2rem;
+}
+.header
+{
+  width: 40%;
+  margin: auto;
+}
+.middle-container
+{
+  text-align: center;
+  height: 650px;
+  margin-top: 60px;
+  position: relative;
+}
+.cards
+{
+  display: inline-block;
+  position: absolute;
+  background-color: #ffffff;
+  width: 350px;
+  height: 250px;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px hsl(0, 0%, 92%);
+}
+.card-supervisor
+{
+  left: 111.5px;
+  top: 140px;
+}
+.card-team-builder
+{
+  right: 491.5px;
+}
+.card-karma
+{
+  top: 280px;
+  right: 491.5px;
+}
+.card-calculator
+{
+  right: 111.5px;
+  top: 140px;
+}
+.img-card
+{
+  clear: right;
+  float: right;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.card-text
+{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.card-desc
+{
+  line-height: 2;
+}
+.horizontal-rule
+{
+  margin: 0;
+  border: solid 4px;
+  border-bottom: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.karma-rule{color: hsl(34, 97%, 64%);}
+.supervisor-rule{color: hsl(180, 62%, 55%);}
+.calculator-rule{color: hsl(212, 86%, 64%);}
+.team-builder-rule{color: hsl(0, 78%, 62%);}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
